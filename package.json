@@ -1,0 +1,50 @@
+{
+  "name": "@algoristic/tinyparams-async",
+  "version": "1.0.0",
+  "description": "rxjs wrapper for `@algoristic/tinyparams",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "format": "prettier . --write",
+    "build": "tsup",
+    "test": "jest",
+    "test:coverage": "jest --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/algoristic/tinyparams-async.git"
+  },
+  "keywords": [
+    "url",
+    "query",
+    "parameters",
+    "location",
+    "search",
+    "rxjs",
+    "async"
+  ],
+  "author": "Marco Herzig",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/algoristic/tinyparams-async/issues"
+  },
+  "homepage": "https://github.com/algoristic/tinyparams-async#readme",
+  "devDependencies": {
+    "@types/jest": "29.5.14",
+    "jest": "29.7.0",
+    "jest-environment-jsdom": "^29.7.0",
+    "prettier": "3.5.3",
+    "ts-jest": "29.2.6",
+    "ts-node": "10.9.2",
+    "tsup": "8.4.0",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "@algoristic/tinyparams": "1.0.2",
+    "rxjs": "7.8.2"
+  }
+}
