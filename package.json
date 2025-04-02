@@ -1,6 +1,6 @@
 {
   "name": "@algoristic/tinyparams-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "rxjs wrapper for `@algoristic/tinyparams",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
@@ -44,7 +44,7 @@
     "typescript": "5.8.2"
   },
   "dependencies": {
-    "@algoristic/tinyparams": "1.0.2",
+    "@algoristic/tinyparams": "1.0.3",
     "rxjs": "7.8.2"
   }
 }
